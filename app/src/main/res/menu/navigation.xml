@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/navigation_task"
+        android:icon="@drawable/ic_view_list"
+        android:title="Tugas" />
+
+    <item
+        android:id="@+id/navigation_notif"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Notifikasi" />
+    <item
+        android:id="@+id/navigation_progress"
+        android:icon="@drawable/ic_barchart"
+        android:title="Progress" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_person"
+        android:title="Akun saya" />
+
+</menu>
