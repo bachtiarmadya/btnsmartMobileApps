@@ -37,11 +37,15 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Design"></activity>
+            android:theme="@style/Theme.Design.Light"></activity>
         <activity
             android:name=".smarttask.Smart_DialyAgenda"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Design"></activity>
+            android:theme="@style/Theme.Design.Light"></activity>
+        <activity
+            android:name=".smarttask.Smart_InputNewProspek"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Design.Light"></activity>
     </application>
 
 

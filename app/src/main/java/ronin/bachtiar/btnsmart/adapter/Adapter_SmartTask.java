@@ -50,7 +50,7 @@ public class Adapter_SmartTask extends BaseAdapter {
 
         TextView txtTaskNamaNasabah = (TextView) convertView.findViewById(R.id.txtTaskNamaNasabah);
         TextView txtTaskNoTlp = (TextView) convertView.findViewById(R.id.txtTaskNoTlp);
-        TextView txtTaskProgress = (TextView) convertView.findViewById(R.id.txtTaskProgress);
+        //TextView txtTaskProgress = (TextView) convertView.findViewById(R.id.txtTaskProgress);
 
         Model_Customer custData = new Model_Customer();
         txtTaskNamaNasabah.setText(custData.getCustName());

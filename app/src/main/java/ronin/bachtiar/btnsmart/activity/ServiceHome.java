@@ -13,6 +13,7 @@ import android.widget.GridView;
 
 import ronin.bachtiar.btnsmart.R;
 import ronin.bachtiar.btnsmart.smarttask.Smart_DialyAgenda;
+import ronin.bachtiar.btnsmart.smarttask.Smart_InputNewProspek;
 import ronin.bachtiar.btnsmart.utils.GridViewAdapter;
 
 public class ServiceHome extends Fragment {
@@ -22,23 +23,15 @@ public class ServiceHome extends Fragment {
     Activity context;
 
     public static String[] gridViewStrings = {
-            "Lead Generation",
-            "Lead Qualification",
-            "Lead Activity Management",
-            "Material Tools",
-            "Fitur 1",
-            "Fitur 2",
-            "Fitur 3"
+            "Input prospek baru",
+            "Input referral",
+            "View lead"
 
     };
     public static int[] gridViewImages = {
-            R.drawable.taskicon,
-            R.drawable.taskicon,
-            R.drawable.taskicon,
-            R.drawable.taskicon,
-            R.drawable.taskicon,
-            R.drawable.taskicon,
-            R.drawable.taskicon
+            R.drawable.add_user,
+            R.drawable.add_referral,
+            R.drawable.view_lead
     };
 
     public ServiceHome() {
@@ -76,38 +69,18 @@ public class ServiceHome extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
 
 
-                if( gridViewImages[+i] == R.drawable.taskicon)
+                if( gridViewImages[+i] == R.drawable.add_user)
                 {
-                    Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
+                    Intent intent = new Intent(getActivity(), Smart_InputNewProspek.class);
                     startActivity(intent);
                 }
-                else if(gridViewImages[+i] == R.drawable.taskicon)
+                else if(gridViewImages[+i] == R.drawable.add_referral)
                 {
                     Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
                     startActivity(intent);
                 }
 
-                else if(gridViewImages[+i] == R.drawable.taskicon)
-                {
-                    Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
-                    startActivity(intent);
-                }
-                else if(gridViewImages[+i] == R.drawable.taskicon)
-                {
-                    Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
-                    startActivity(intent);
-                }
-                else if(gridViewImages[+i] == R.drawable.taskicon)
-                {
-                    Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
-                    startActivity(intent);
-                }
-                else if(gridViewImages[+i] == R.drawable.taskicon)
-                {
-                    Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
-                    startActivity(intent);
-                }
-                else if(gridViewImages[+i] == R.drawable.taskicon)
+                else if(gridViewImages[+i] == R.drawable.view_lead)
                 {
                     Intent intent = new Intent(getActivity(), Smart_DialyAgenda.class);
                     startActivity(intent);

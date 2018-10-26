@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_card">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nama nasabah" />
+
+                <EditText
+                    android:id="@+id/inpNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l1"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Telepon" />
+
+                <EditText
+                    android:id="@+id/inpTelepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l2"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Alamat" />
+
+                <EditText
+                    android:id="@+id/inpAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l3"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jenis produk" />
+
+                <Spinner
+                    android:id="@+id/inpProduk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l4"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Potensi realisasi" />
+
+                <Spinner
+                android:id="@+id/inpPotensi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l5"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tipe nasabah" />
+
+                <Spinner
+                    android:id="@+id/inpTipeNasabah"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l6"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Catatan" />
+
+                <EditText
+                    android:id="@+id/inpCatatan"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l7"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Lokasi" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l8"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tambah foto" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/l9"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector"
+                android:orientation="vertical">
+
+              <Button
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:text="submit"
+                  android:background="@drawable/bg_button"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
