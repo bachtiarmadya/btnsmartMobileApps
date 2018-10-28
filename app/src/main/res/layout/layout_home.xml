@@ -42,7 +42,7 @@
                 android:id="@+id/r2"
                 android:layout_below="@id/r1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="400dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="5dp"
@@ -57,14 +57,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
-                    android:text="Newsfeed"/>
+                    android:layout_marginBottom="20dp"
+                    android:text="Progress"/>
 
-                <TextView
+                <com.github.mikephil.charting.charts.PieChart
                     android:layout_below="@id/txt1"
-                    android:padding="5dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="berisi informasi"/>
+                    android:id="@+id/piechart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
 
             </RelativeLayout>
 

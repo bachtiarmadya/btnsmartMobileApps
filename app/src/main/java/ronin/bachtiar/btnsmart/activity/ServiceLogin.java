@@ -3,7 +3,6 @@ package ronin.bachtiar.btnsmart.activity;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.icu.text.UnicodeSetSpanner;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -14,7 +13,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
-import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -32,7 +30,6 @@ import ronin.bachtiar.btnsmart.R;
 import ronin.bachtiar.btnsmart.apim.ApiManager;
 import ronin.bachtiar.btnsmart.utils.AppController;
 import ronin.bachtiar.btnsmart.utils.SessionManager;
-import ronin.bachtiar.btnsmart.utils.Utility;
 
 public class ServiceLogin extends Activity {
 

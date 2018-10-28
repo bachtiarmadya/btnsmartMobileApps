@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
 
                 case R.id.navigation_progress:
-                    toolbar.setTitle("Progress");
+                    toolbar.setTitle(" ");
                     fragment = new ServiceProgress();
                     loadFragment(fragment);
                     return true;

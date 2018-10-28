@@ -20,4 +20,9 @@
 
     <color name="list_row_hover_start_color">#ebeef0</color>
     <color name="list_row_hover_end_color">#ebeef0</color>
+
+    // Pie Chart
+    <color name="pie_green">#128a00</color>
+    <color name="pie_red">#d50000</color>
+    <color name="colorAccent">#009688</color>
 </resources>
